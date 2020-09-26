@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-09-26 19:09:07
- * @LastEditTime: 2020-09-26 20:34:53
+ * @LastEditTime: 2020-09-26 21:06:27
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \webpack5_demo\05.打包图片资源\webpack.config.js
@@ -14,7 +14,7 @@ module.exports = {
     entry: './src/index.js',
     output: {
         filename: 'built.js',
-        path: resolve(__dirname + '/build')
+        path: resolve(__dirname + 'build')
     },
     module: {
         rules: [{
