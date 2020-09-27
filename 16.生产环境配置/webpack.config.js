@@ -47,7 +47,7 @@ module.exports = {
             }, {
                 // 在package.json 中eslintConfig --> airbnb
                 test: /\.js$/,
-                exclude: /node_modelus/,
+                exclude: /node_modules/,
                 enforce: 'pre', //优先执行
                 loader: 'eslint-loader',
                 options: {
@@ -55,7 +55,7 @@ module.exports = {
                 }
             }, {
                 test: /\.js$/,
-                exclude: /node_modelus/,
+                exclude: /node_modules/,
                 loader: 'babel-loader',
                 options: {
                     presets: [

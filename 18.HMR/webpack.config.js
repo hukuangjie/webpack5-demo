@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2020-09-27 19:34:10
+ * @LastEditTime: 2020-09-27 21:35:50
+ * @LastEditors: your name
+ * @Description: In User Settings Edit
+ * @FilePath: \webpack5_demo\18.HMR\webpack.config.js
+ */
 /**
  * HMR: hot module replacement 热模块替换 /模块热替换
  *  作用:一个模块发生变化,只会重新打包这一个模块,极大提升构建速度
